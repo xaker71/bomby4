@@ -34,10 +34,10 @@ class spymer:
 		_phone = args.phonenum
 		if _phone[0] == '+':
 			_phone = _phone[1:]
-		if _phone[0] == '8':
-			_phone = '7'+_phone[1:]
-		if _phone[0] == '9':
-			_phone = '7'+_phone
+		if _phone[0] == '38':
+			_phone = '38'+_phone[1:]
+		if _phone[0] == '38':
+			_phone = '38'+_phone
 		
 		_text = args.text
 		if _text == None:

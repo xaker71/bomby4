@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # spymer v3
-# Author: FSystem88
+# Author: kortik
 class spymer:
 	def main(self):
 		import requests, random, datetime, sys, time, argparse

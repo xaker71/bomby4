@@ -1,15 +1,15 @@
 #!/usr/bin/python
 # spymer v3
-# Author: kortik
+# Author: FSystem
 class spymer:
 	def main(self):
 		import requests, random, datetime, sys, time, argparse
 		from colorama import Fore, Back, Style
 		print(Fore.GREEN + '88888lolkor88888888888888888888\n8888888888888888888888888\n888        888        888\n888  888888888  8888  888\n888  888888888  888888888\n888  888888888  888888888\n888        888        888\n888  888888888888888  888\n888  888888888888888  888\n888  888888888  8888  888\n888  888888888        888\n8888888888888888888888888\n8888888888888888888888888\n8888    FSystem88    8888\n8888   SMS Spammer   8888\n8888      v.5.0      8888\n8888888888888888888888888\n8888888888888888888888888\n')
 		print(Style.RESET_ALL)
-		parser = argparse.ArgumentParser(prog='spymer', description="Fucking shit by FSystem88. Возможно что-то уже не работает. Только для России!",epilog='Мой e-mail - FSystem88@bk.ru')
-		parser.add_argument('phonenum', metavar='phone', help='Телефонный номер жертвы (пример: 79991234455)')
-		parser.add_argument('--text', help='Текст для некоторых сервисов (по умолчанию: Путин тебя любит ♥)')
+		parser = argparse.ArgumentParser(prog='spymer', description="Fucking shit by FSystem88. Возможно что-то уже не работает. Только для России, и я переработал для юа!",epilog='Мой e-mail - FSystem88@bk.ru')
+		parser.add_argument('phonenum', metavar='phone', help='Телефонный номер жертвы (пример: 380111111111)')
+		parser.add_argument('--text', help='Текст для некоторых сервисов (по умолчанию: для фсистема)')
 		args = parser.parse_args()
 		def showstatus(message, type='new'):
 			now = datetime.datetime.now().strftime('%H:%M:%S')
@@ -41,7 +41,7 @@ class spymer:
 		
 		_text = args.text
 		if _text == None:
-			_text = 'Путин тебя любит ♥'		
+			_text = 'для фсистема'		
 		_name = ''
 		for x in range(12):
 			_name = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'))

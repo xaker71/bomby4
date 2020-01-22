@@ -1,11 +1,11 @@
 #!/usr/bin/python
 # spymer v3
-# Author: FSystem
+# Author: xaker71
 class spymer:
 	def main(self):
 		import requests, random, datetime, sys, time, argparse
 		from colorama import Fore, Back, Style
-		print(Fore.GREEN + '88888lolkor88888888888888888888\n8888888888888888888888888\n888        888        888\n888  888888888  8888  888\n888  888888888  888888888\n888  888888888  888888888\n888        888        888\n888  888888888888888  888\n888  888888888888888  888\n888  888888888  8888  888\n888  888888888        888\n8888888888888888888888888\n8888888888888888888888888\n8888    FSystem88    8888\n8888   SMS Spammer   8888\n8888      v.5.0      8888\n8888888888888888888888888\n8888888888888888888888888\n')
+		print(Fore.GREEN + '88888lolko888\n8888888888888888888888888\n888        888        888\n888  888888888  8888  888\n888  888888888  888888888\n888  888888888  888888888\n888        888888 888\n888  888888888  8888  888\n888  888888888        888\n8888888888888888888888888\n8888888888888888888888888\n8888    FSystem88    8888\n8888   SMS Spammer   8888\n8888      v.5.0      8888\n8888888888888888888888888\n8888888888888888888888888\n')
 		print(Style.RESET_ALL)
 		parser = argparse.ArgumentParser(prog='spymer', description="Fucking shit by FSystem88. Возможно что-то уже не работает. Только для России, и я переработал для юа!",epilog='Мой e-mail - FSystem88@bk.ru')
 		parser.add_argument('phonenum', metavar='phone', help='Телефонный номер жертвы (пример: 380111111111)')

@@ -1,12 +1,10 @@
 # Spymer
 SMS-спамер<br>
-Только для России!<br>
-Связь со мной в <a href="https://t-do.ru/FSystem88">Telegram</a> или <a href="https://vk.com/fsys88">Вконтакте</a><br>
-Новости об обновлениях в <a href="https://t-do.ru/spymer">Telegram</a><br>
-<b>Обязательно подпишитесь на канал в телеграме, так как именно там я пишу когда надо обновиться, чтобы сервисов было больше!</b><br><br>
-# Донатерная
-<b>Кому не жалко копейку на развитие проекта:</b><br>
-http://FSystem88.ru/donate
+Только для Украины!<br>
+
+
+
+
 <br>
 https://qiwi.com/n/FSYSTEM88
 <br><br>
@@ -22,14 +20,13 @@ https://qiwi.com/n/FSYSTEM88
 <code>spymer phone --text '[любое сообщение]'</code> //<i>Запустим Спамер с телефоном жертвы</i><br>
 <br>
 <b>Пример:</b><br>
-<code>spymer 79991234455 --text 'Путин тебя любит'</code><br><br>
-Будут вопросы - контакты выше.<br>
+<code>spymer 380955555555 --text 'Любой текст'</code><br><br>
+
 <b>Приятного пользования!</b>
 <br><br>
 # Как обновить?
 <br>
-Прописываем <code>spymer-update</code>
-<br>или<br>
+
 Открываем Термух и прописываем следующее:<br>
 <code>rm -rf spymer</code> (удаляем папки с прогой)
 <br>
